@@ -17,7 +17,7 @@ for i in range(ln):
                 f = open('frequency', 'a+')
                 f.write("%s %d \n" %(list[i],count))"""
     print(list[i], count)
-    f = open('frequency', 'a+')
+    f = open('task1-output', 'a+')
     f.write("%s %d \n" % (list[i], count))
 
 
